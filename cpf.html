@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de CPF</title>
+    <link rel="stylesheet" href="CPF.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Receita Federal</h1>
+        <h1 class="menor">MINISTÉRIO DA ECONOMIA</h1>
+    </div>
+    <div class="container-2">
+        <h5>.</h5>
+    </div>
+    <br>
+    <div class="imagem">
+       <img src="https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/images/armasbra.gif" width="150px" height="130px">
+    </div>
+    <h2>Comprovante de Situação Cadastral no CPF</h2>
+
+    <div class="quadrado-menor">
+    </div>
+    <br>
+    <div class="quadrado">
+        <h3>Preencha o campo abaixo com o CPF que deseja validar:</h3>
+        <input id="cpf" onkeyup="document.getElementById('validation').innerHTML = ''"> 
+        <br><br>
+        <div>
+            <button id="consultar">Consultar</button>
+            <button id="limpar">Limpar</button>
+            <br>
+            <br>
+            <span id="validation"></span>
+            <h6>A informação oferecida aqui limita-se somente a comprovar a situação cadastral no CPF. Não fornecemos informações sobre a situação econômica, financeira ou fiscal do titular do CPF</h6>
+        </div>
+    </div>  
+    <script src="CPF.js"></script>
+</body>
+</html>
