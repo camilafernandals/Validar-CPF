@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+button{
+    background-color: rgb(75, 127, 212);
+    border: solid 1px rgb(31, 70, 131);
+}
+h1{
+    color: #ffffff;
+    margin-top: 0px;
+}
+h2{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+h3{
+    font-size: large;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    color: rgb(27, 33, 193);
+    font-size: 1px;
+}
+h6{
+    text-align: center; 
+    font-size: 12px;
+    background-color: rgb(136, 200, 255);
+}
+span, input{
+    font-size: 15px;
+}
+p{
+    text-align: center;
+}
+.imagem{
+    margin-left: 530px;
+}
+.container{
+    background-color: rgb(71, 77, 255);
+    padding: 5px;
+}
+.container-2{
+    background-color: rgb(27, 33, 193);
+    padding: 5px;
+}
+
+.menor{
+    margin: 0; 
+    padding: 0; 
+    color: #ffffff; 
+    font-size: 17px;
+}
+.quadrado{
+    text-align: center;
+    align-items: center;
+    padding: 4px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(113, 168, 255);
+    border: solid 1px #1c7fdc;
+}
+.quadrado-menor{
+    padding: 1px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(113, 168, 255);
+}
